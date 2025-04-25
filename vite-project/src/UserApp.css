@@ -1,0 +1,71 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 0px;
+}
+
+.user-table {
+  margin: auto;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+.user-table th,
+.user-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+thead {
+  background-color: #d3d3d3;
+}
+
+input,
+select {
+  padding: 5px;
+  margin: 5px;
+}
+
+.add-btn {
+  background-color: blue;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+}
